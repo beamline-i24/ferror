@@ -1,0 +1,19 @@
+StripConfig                   1.2
+Strip.Time.Timespan           30
+Strip.Time.NumSamples         7200
+Strip.Time.SampleInterval     0.1
+Strip.Time.RefreshInterval    0.1
+
+Strip.Curve.0.Name            BL24I-MO-GONIO-01:OMEGA.RBV
+Strip.Curve.0.Units           deg
+Strip.Curve.0.Comment         TOMEGA
+Strip.Curve.0.Precision       5
+Strip.Curve.0.Min             -360
+Strip.Curve.0.Max              360
+
+Strip.Curve.1.Name            BL24I-MO-GONIO-01:OMEGA:FERROR
+Strip.Curve.1.Units           deg
+Strip.Curve.1.Comment         Following Error
+Strip.Curve.1.Precision       5
+Strip.Curve.1.Min             -0.01
+Strip.Curve.1.Max              0.01
